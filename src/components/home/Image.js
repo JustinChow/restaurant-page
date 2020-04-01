@@ -1,8 +1,9 @@
 import React from 'react';
+import image from "./restaurant-image.jpg";
 
 export const Image = () => (
   <div className="Image">
-    <img src="./restaurant-image.jpg"/>
+    <img src={image}/>
   </div>
 );
 
